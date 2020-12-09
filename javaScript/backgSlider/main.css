@@ -1,0 +1,63 @@
+body{
+    background: url("./img-2/mainBcg.jpeg") center/cover fixed no-repeat;
+}
+
+
+.max-height{
+    min-height: 100vh;
+}
+
+.img-cont{
+    min-height: 60vh;
+    border:0.5rem solid navy;
+    border-radius: 0.5rem;
+    opacity:0.6;
+    position: relative;
+    background: url("./img/cB-0.jpeg") center/cover fixed no-repeat;
+}
+
+@media screen and (min-width:768px){
+    .img-cont{
+        min-height: 80vh;
+    }
+}
+
+.btn-left{
+    position: absolute;
+    top:50%;
+    left:0;
+    background: #3e92cc;
+    color:white !important;
+    border:0.2rem solid #3e92cc;
+    font-size: 1.2rem;
+    transform:translate(-150%, 0);
+}
+
+.btn-left:hover {
+    border-color: #3e92cc;
+    background: white;
+    color: #3e92cc !important;
+    opacity:0.8;
+  }
+
+
+.btn-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background: #3e92cc;
+    color: white !important;
+    font-size: 1.2rem;
+    transform: translate(150%, 0);
+    border: 0.2rem solid #3e92cc;
+  }
+
+  
+.btn-right:hover {
+
+    border-color: #3e92cc;
+    background: white;
+    color: #3e92cc !important;
+    opacity:0.8;
+
+  }
