@@ -137,3 +137,29 @@ nav ul li a{
 }
 
 
+/* About */
+.about.about-image{
+    width: 45%;
+    float:left;
+}
+
+.about-wrapper img{
+    max-width: 100%;
+    height: auto;
+}
+
+.about .about-content{
+    width: 45%;
+    float: right;
+    text-align: left;
+}
+
+.line{
+    width:150px;
+    height: 6px;
+    background-color: orangered;
+}
+
+
+
+
