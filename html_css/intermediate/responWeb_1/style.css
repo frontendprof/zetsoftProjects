@@ -35,6 +35,10 @@ h3{
     color:yellow;
 }
 
+i{
+    color:orange;
+}
+
 p{
     font-weight: 300;
     color:purple;
@@ -52,6 +56,7 @@ p{
 .container{
     width:70%;
     margin:auto;
+    text-align: center;
 }
 
 nav{
@@ -90,8 +95,9 @@ nav ul li a{
 
 .showcase{
     height: calc(100vh - 100px);
+    /* pexels-christina-morillo-1181271 */
     background-image: linear-gradient(to bottom, rgba(219, 109, 5, 0.5), rgba(0,0,255,0.5)),
-    url("./img/aa.jpg");
+    url("./img/aa.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -138,28 +144,57 @@ nav ul li a{
 
 
 /* About */
-.about.about-image{
-    width: 45%;
+
+
+
+.about .about-image{
+    width: 50%;
     float:left;
+    margin:180px 40px 0 -85px;
 }
 
 .about-wrapper img{
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
+    margin:15px 15px 0 0;
 }
 
 .about .about-content{
     width: 45%;
     float: right;
     text-align: left;
+    margin-top:60px;
 }
 
 .line{
     width:150px;
+    margin-top:50px;
     height: 6px;
     background-color: orangered;
 }
 
+.about p{
+    margin-top:50px;
+}
 
+.about ul{
+    margin-top: 50px;
+}
+
+
+ .about ul li{
+     margin:10px 0;
+ }
+
+ .about .fa-li{
+     margin-left:-20px;
+ }
+
+ .social-icon i{
+     padding:10px;
+     margin:20px;
+     font-size:30px;
+     border:1px solid blue;
+ }
 
 
