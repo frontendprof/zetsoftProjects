@@ -150,17 +150,19 @@ nav ul li a{
 .about .about-image{
     width: 50%;
     float:left;
-    margin:180px 40px 0 -85px;
+    /* height: 110%; */
+    margin:0 20px 0 -75px;
+    opacity: .7;
 }
 
 .about-wrapper img{
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
     margin:15px 15px 0 0;
 }
 
 .about .about-content{
-    width: 45%;
+    width: 50%;
     float: right;
     text-align: left;
     margin-top:60px;
@@ -188,6 +190,10 @@ nav ul li a{
 
  .about .fa-li{
      margin-left:-20px;
+ }
+
+ .social-icon{
+     margin-top: 20px;
  }
 
  .social-icon i{
