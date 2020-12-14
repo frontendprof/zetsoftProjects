@@ -1,0 +1,22 @@
+#container{
+    width: 1000px;
+    height: 580px;
+  
+    /*  Photo by Pew Nguyen from Pexels */
+    /* pexels-pew-nguyen-243971 */
+    background: url("img/aa.jpg") center/cover ;
+    margin:10px auto;
+
+    /* Change the background to math related */
+}
+
+#calculator{
+    width: 320px;
+    height: 520px;
+    margin:0 auto;
+    background-color: lightgray;
+    top:25px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(255,255,0,.5), 0 6px 20px 0 rgba(197, 10, 10, 0.9)
+}
